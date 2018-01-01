@@ -5,9 +5,9 @@ const app = express()
 var ConversationV1 = require('watson-developer-cloud/conversation/v1');
 // Set up Conversation service.
 var conversation = new ConversationV1({
-    username: '85fdf5fa-3bea-4c41-a3a7-a94b193beb5a', // replace with username from service key
-    password: '2ayt2CmUtFXF', // replace with password from service key
-    path: { workspace_id: '430b471c-958b-4e3a-b987-0328f92eaf98' }, // replace with workspace ID
+    username: '', // replace with username from service key
+    password: '', // replace with password from service key
+    path: { workspace_id: '' }, // replace with workspace ID
     version_date: '2017-07-22'
 });
 
